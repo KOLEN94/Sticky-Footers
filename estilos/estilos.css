@@ -1,7 +1,10 @@
 
 body {
-    background: lightgray;
-
+	margin: 0;
+    background: #234523;
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
 }
 .wrapper {
     min-height: 100%;
