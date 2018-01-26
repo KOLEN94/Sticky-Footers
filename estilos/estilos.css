@@ -6,15 +6,19 @@ body {
     min-height: 100vh;
     flex-wrap: wrap;
 }
-.wrapper {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -100px;
+header{
+    height: 50px;
+    background: #273b47;
 }
+section{
+    background-color: #fcfcd2;
+}
+
 footer {
-    align-self: flex-end;
-    background-color: rgba(120, 120, 120,.5);
-    text-align: center;
-    line-height: 10;
+   background: #7fc719;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
